@@ -1,0 +1,53 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+	clear: both;
+}
+body {
+  width: 100%;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.containerApp {
+  border: 5px solid black;
+  margin: 0 auto;
+  width: 45rem;
+  display: flex;
+}
+header {
+  border: 3px solid #4a90e2;
+  margin: 3px;
+}
+/* Media Queries */
+@media (max-width: 760px) {
+  .containerApp {
+    width: 37rem;
+  }
+}
+@media (max-width: 615px) {
+  .containerApp {
+    display: block;
+    width: 25rem;
+  }
+  .homePage {
+    width: initial !important;
+  }
+  .employeePage {
+    width: initial !important;
+  }
+}

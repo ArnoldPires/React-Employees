@@ -1,0 +1,18 @@
+.employeeListItem {
+  border: 3px solid #d0021b;
+  margin: 3px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+img {
+  height: 5rem;
+  width: 75px;
+  border-radius: 3rem;
+}
+.nameTitleWrapper {
+  padding: 8px;
+}
+.nameTitleWrapper p {
+  color: #c3c3c3;
+}

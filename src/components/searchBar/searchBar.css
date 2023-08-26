@@ -1,0 +1,11 @@
+.searchBar {
+  border: 3px solid #417505;
+  margin: 3px;
+}
+.searchBar input {
+  width: -webkit-fill-available;
+  height: 2rem;
+  margin: 3px;
+  border-radius: 8px;
+  border: 2px solid #f1f1f1
+}
