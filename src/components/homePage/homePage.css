@@ -1,0 +1,9 @@
+.homePage {
+  border: 3px solid #f5a623;
+  margin: 3px;
+  width: 50%;
+}
+.homePageHeader h2 {
+  text-align: center;
+  padding: 8px;
+}
